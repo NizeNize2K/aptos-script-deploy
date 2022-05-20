@@ -75,3 +75,8 @@ docker compose down
 sleep 2
 docker compose up -d
 echo -e "Your Aptos node \e[32minstalled and works\e[39m!"
+
+sleep 30
+
+source ~/.bash_profile
+cat ~/.aptos/$APTOS_NODENAME.yaml
